@@ -5,6 +5,9 @@ body{
     background-color: #ECF0F1;
 }
 
+#title{
+    height: 50vh;
+}
 .navbar-brand{
     font-size: 35px;
     color: #2980B9 !important;
