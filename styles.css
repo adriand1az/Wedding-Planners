@@ -1,28 +1,48 @@
-body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #ECF0F1;
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ecf0f1;
 }
 
-#title{
-    height: 50vh;
+#title {
+  height: 100vh;
 }
-.navbar-brand{
-    font-size: 35px;
-    color: #2980B9 !important;
-}
-
-.nav-link{
-    font-size: 16px;
-    margin: 15px;
-
+.navbar-brand {
+  font-size: 35px;
+  color: #2980b9 !important;
 }
 
-.active .nav-link{
-    color: #00e8e8 !important;
+.nav-link {
+  font-size: 16px;
+  margin: 15px;
 }
 
-.nav-link:hover{
-    color: #00e8e8 !important;
+.active .nav-link {
+  color: #00e8e8 !important;
+}
+
+.nav-link:hover {
+  color: #00e8e8 !important;
+}
+
+.site-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.hero-img {
+  background: url("./Images/Videographer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  max-height: 100vh;
+}
+
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  font-size: 6rem;
 }
